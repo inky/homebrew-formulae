@@ -11,6 +11,9 @@ To install a formula (using _foo_ as an example), run:
 
     brew install inky/formulae/foo
 
+[brew]: http://brew.sh
+
+
 Formulae available
 ------------------
 
@@ -18,4 +21,6 @@ Formulae available
 
 SBaGen, a tool for generating binaural beats or playing with sine waves.
 
-[brew]: http://brew.sh
+Try the following command to play a continuous A minor chord.
+
+    sbagen -i 440/20 523.25/20 659.25/20
